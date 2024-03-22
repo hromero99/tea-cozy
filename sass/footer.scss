@@ -1,0 +1,24 @@
+.footer{
+    &__contact{
+        text-align: center;
+    }
+    &__copy{
+        margin-left: 20px;
+
+    }
+}
+@media only screen and (max-width: 600px){
+    .footer{
+        &__contact{
+            margin: 0;
+            h5{
+                margin-top: 1em;
+                margin-bottom: 0;
+            }
+        }
+        &__copy{
+            display: inline-block;
+            margin-top: 1em;
+        }   
+    }
+}

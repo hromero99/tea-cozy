@@ -1,0 +1,38 @@
+
+.image-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    &__background{
+        height: 100%;
+        width: 100%;   
+    }
+    &__text-overlay {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+    }
+}
+
+
+
+.section-img-background {
+    text-align: center;
+}
+
+
+.content_list{
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+    .image-container{
+        &__text-overlay{
+            top: 35%;
+        }
+        h2 ,h4{
+            font-size: 10px;
+        }
+       
+    }
+}

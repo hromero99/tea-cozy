@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -15,31 +15,29 @@
             <li class="content_list"><a href="#">Featured Tea</a></li>
             <li class="content_list"><a href="#">Locations</a></li>
         </ul>
+        <button class="navbar__button">Menú</button>
     </nav>
     <!-- end navbar -->
 
 
     <!-- section one -->
-    <section class="content-max">
-        <div class="image-container">
-            <img class="img-background" src="source/img-mission-background.webp" alt="">
-            <div class="text-overlay">
+    <header class="content-max image-container">
+            <img class="image-container__background" src="source/img-mission-background.webp" alt="">
+            <div class="image-container__text-overlay">
                 <h2>Our Mission</h2>
                 <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
             </div>
-        </div>
-    </section>
-    <!-- end section one -->
+    </header>
 
 
-    <!-- section two -->
-    <section class="content-max-section-two">
+
+    <section class="teaMonth">
 
         <h2>Tea of the Month</h2>
         <h4>Whats Steeping at The Tea Cozy</h4>
 
-        <div class="content-imgs-section-two">
-            <div class="section-two-cards-container">
+        <div>
+            <div class="teaMonth__card-container">
                 <div>
                     <img class="img-section-two" src="source/img-berryblitz.jpg" alt="">
                     <h4 class="text-img-section-two">Fall Berry Blitz Tea</h4>
@@ -58,7 +56,7 @@
 
             </div>
 
-            <div class="section-two-cards-container">
+            <div class="teaMonth__card-container">
                 <div >
                     <img class="img-section-two" src="source/img-myrtle-ave.jpg" alt="">
                     <h4 class="text-img-section-two">Fall Berry Blitz Tea</h4>
@@ -74,52 +72,44 @@
         </div>
     </section>
 
-    <!-- end section two -->
-
-
-    <!-- section three -->
-    <section class="content-max section-three">
-        <img class="img-section-three" src="source/img-locations-background.jpg" alt="">
-        <h4 class="text-section-three">Locations</h4>
-        <div class="text-blocks">
-            <div class="text-blocks-container">            
-                <div class="text-block">
+    
+    <section class="content-max locationSection">
+        <img class="locationSection__background" src="source/img-locations-background.jpg" alt="">
+        <h4 class="locationSection__title">Locations</h4>
+        <div class="locationSection__textContainer">            
+                <div class="locationSection__textContainer__item">
                     <h3>Downtown</h3>
                     <h2>384 West 4th St</h2>
                     <h2>Suite 108</h2>
                     <h2>Portland, Maine</h2>
                 </div>
 
-                <div class="text-block">
+                <div class="locationSection__textContainer__item">
                     <h3>East Bayside</h3>
                     <h2>3433 Phishermans Avenue</h2>
                     <h2>(Northwest Corner)</h2>
                     <h2>Portland, Maine</h2>
                 </div>
 
-                <div class="text-block">
+                <div class="locationSection__textContainer__item">
                     <h3>Oakdale</h3>
                     <h2>515 Crescent Avenue</h2>
                     <h2>Second Floor</h2>
                     <h2>Portland, Maine</h2>
                 </div>
-            </div>
         </div>
       
     </section>
 
-    <!-- end section three -->
-    <!-- footer -->
     <footer>
-        <h2  class="text-section-three-cozy">The Tea Cozy</h2>
-        <div class="text-contact-footer">
+        <div class="footer__contact">
             <h5>contact@theteacozy.com</h5>
             <h5>917-555-8904</h5>
         </div>
-
-        <span class="text-footer">copyright The Tea Cozy 2017</span>
+        <span class="footer__copy">copyright The Tea Cozy 2017</span>
     </footer>
-    <!-- end footer -->
+
+
 </body>
 
 
